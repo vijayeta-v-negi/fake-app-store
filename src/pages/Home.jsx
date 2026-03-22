@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "../components/ProductCard";
 import CartModal from "../components/CartModal";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
